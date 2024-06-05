@@ -11,6 +11,11 @@ body{
     background-color: #01321f;
     background-position: center;
     border-radius: 30px;
+    transition: transform 0.5s ease-in-out;
+
+}
+.customer-card:hover .diamour, .customer-card:active .diamour {
+    transform: rotate(360deg);
 }
 .exhange {
     background-image: url('../../public/Customer service/02.png');
@@ -18,6 +23,11 @@ body{
     background-size: contain;
     background-color: #01321f;
     background-position: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+.customer-card:hover .exhange, .customer-card:active .exhange {
+    transform: rotate(360deg);
 }
 .refund{
     background-image: url('../../public/Customer service/03.png');
@@ -25,6 +35,11 @@ body{
     background-size: contain;
     background-color: #01321f;
     background-position: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+.customer-card:hover .refund, .customer-card:active .refund {
+    transform: rotate(360deg);
 }
 .payment{
     background-image: url('../../public/Customer service/04.png');
@@ -32,6 +47,11 @@ body{
     background-size: contain;
     background-color: #01321f;
     background-position: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+.customer-card:hover .payment, .customer-card:active .payment {
+    transform: rotate(360deg);
 }
 .dilevery{
     background-image: url('../../public/Customer service/05.png');
@@ -39,6 +59,17 @@ body{
     background-size: contain;
     background-color: #01321f;
     background-position: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+.customer-card:hover .dilevery, .customer-card:active .dilevery {
+    transform: rotate(360deg);
+}
+
+.customer-card:hover{
+    transform: translate(0,-10%);
+    transition: 1s ease;
+
 }
 .card::after {
     display: block;
